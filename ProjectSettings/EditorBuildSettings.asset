@@ -4,4 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/C0 - Game Menus/Scenes/GameEntry.unity
+  - enabled: 1
+    path: Assets/C0 - Game Menus/Scenes/GameMenu.unity
+  - enabled: 1
+    path: Assets/C0 - Game Menus/Scenes/GameOver.unity
+  - enabled: 1
+    path: Assets/C1 - Museum/Scenes/MuseumBattle.unity
+  - enabled: 1
+    path: Assets/C2 - Epilogue/Scenes/Epilogue.unity
