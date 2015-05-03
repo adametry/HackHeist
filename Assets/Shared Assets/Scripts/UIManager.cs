@@ -23,16 +23,18 @@ public class UIManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown("joystick button 5")){
+		if(Input.GetKeyDown("right shift")){
 			BeginMenu();
 		}
 	}
 
 	public void BeginMenu(){
 		if (!menuOn) {
+			Debug.Log ("FadeIn");
 			menuAnim.SetTrigger ("FadeIn");
 			menuOn = true;
 		} else {
+			Debug.Log ("FadeOut");
 			menuAnim.SetTrigger ("FadeOut");
 			menuOn = false;
 		}
